@@ -28,8 +28,8 @@ def tour_dates():
     return "Tour date page"
 
 
-@app.route('/store')
-def store():
+@app.route('/merchandise')
+def merchandise():
     return "Store page"
 
 
