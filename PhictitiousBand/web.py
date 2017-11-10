@@ -1,11 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template, request, redirect, jsonify, url_for, flash
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-    return "Index page"
+    return render_template('index.html')
 
 
 @app.route('/login')
