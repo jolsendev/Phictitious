@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ca1790b-2c1f-41fc-a5bc-a48eb6ad81e9" name="Default" comment="" />
+    <list default="true" id="5ca1790b-2c1f-41fc-a5bc-a48eb6ad81e9" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhictitiousBand/img/mokie.jpg" afterPath="$PROJECT_DIR$/PhictitiousBand/static/mokie.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhictitiousBand/img/mokie2.jpg" afterPath="$PROJECT_DIR$/PhictitiousBand/static/mokie2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhictitiousBand/img/wafer.jpg" afterPath="$PROJECT_DIR$/PhictitiousBand/static/wafer.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhictitiousBand/img/wafer2.jpg" afterPath="$PROJECT_DIR$/PhictitiousBand/static/wafer2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhictitiousBand/img/wafer3.jpg" afterPath="$PROJECT_DIR$/PhictitiousBand/static/wafer3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhictitiousBand/img/wafer4.jpg" afterPath="$PROJECT_DIR$/PhictitiousBand/static/wafer4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhictitiousBand/img/wafer5.jpg" afterPath="$PROJECT_DIR$/PhictitiousBand/static/wafer5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhictitiousBand/templates/index.html" afterPath="$PROJECT_DIR$/PhictitiousBand/templates/index.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +44,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PhictitiousBand/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -131,12 +140,6 @@
               <item name="PhictitiousBand" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhictitiousBand" type="462c0819:PsiDirectoryNode" />
               <item name="PhictitiousBand" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhictitiousBand" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhictitiousBand" type="462c0819:PsiDirectoryNode" />
-              <item name="PhictitiousBand" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -154,6 +157,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PhictitiousBand/static" />
       <recent name="$PROJECT_DIR$/PhictitiousBand" />
     </key>
   </component>
@@ -454,7 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhictitiousBand/img/mokie.jpg">
+    <entry file="file://$PROJECT_DIR$/PhictitiousBand/static/mokie.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -469,8 +473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PhictitiousBand/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
           <folding />
         </state>
       </provider>
