@@ -72,6 +72,54 @@
     <div class="container">
         <h3 class="text-center">TOUR DATES</h3>
         <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
+
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                            Collapsible Group 1</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <ul class="list-group">
+                        <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
+                        <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li>
+                        <li class="list-group-item">November <span class="badge">3</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                            Collapsible Group 2</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                            Collapsible Group 3</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </div>
+                </div>
+            </div>
+        </div>
         <ul class="list-group">
             <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
             <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li>
@@ -210,6 +258,7 @@ marker.setMap(map);
 
 
 
+
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 <!--
@@ -255,6 +304,7 @@ $(document).ready(function(){
     } // End if
   });
 })
+
 
 
 
