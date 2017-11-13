@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ca1790b-2c1f-41fc-a5bc-a48eb6ad81e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhictitiousBand/templates/index.html" afterPath="$PROJECT_DIR$/PhictitiousBand/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhictitiousBand/static/style.css" afterPath="$PROJECT_DIR$/PhictitiousBand/static/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,14 +34,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhictitiousBand/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="87" column="40" lean-forward="false" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
+            <state relative-caret-position="164">
+              <caret line="100" column="36" lean-forward="false" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="36" />
               <folding>
                 <marker date="1510601796008" expanded="true" signature="13818:13828" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PhictitiousBand/static/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,10 +110,10 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/PhictitiousBand/web.py" />
-        <option value="$PROJECT_DIR$/PhictitiousBand/static/style.css" />
         <option value="$PROJECT_DIR$/PhictitiousBand/templates/header.html" />
         <option value="$PROJECT_DIR$/PhictitiousBand/templates/photo_carosel.html" />
         <option value="$PROJECT_DIR$/PhictitiousBand/templates/index.html" />
+        <option value="$PROJECT_DIR$/PhictitiousBand/static/style.css" />
       </list>
     </option>
   </component>
@@ -144,6 +154,12 @@
               <item name="PhictitiousBand" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhictitiousBand" type="462c0819:PsiDirectoryNode" />
               <item name="PhictitiousBand" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhictitiousBand" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhictitiousBand" type="462c0819:PsiDirectoryNode" />
+              <item name="PhictitiousBand" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhictitiousBand" type="b2602c69:ProjectViewProjectNode" />
@@ -601,13 +617,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhictitiousBand/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhictitiousBand/templates/photo_carousel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -626,11 +635,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PhictitiousBand/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="87" column="40" lean-forward="false" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
+        <state relative-caret-position="164">
+          <caret line="100" column="36" lean-forward="false" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="36" />
           <folding>
             <marker date="1510601796008" expanded="true" signature="13818:13828" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhictitiousBand/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

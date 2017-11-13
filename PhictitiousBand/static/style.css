@@ -71,9 +71,6 @@
       color: #000;
   }
   .modal-header, h4, .close {
-      background-color: #333;
-      color: #fff !important;
-      text-align: center;
       font-size: 30px;
   }
   .modal-header, .modal-body {
