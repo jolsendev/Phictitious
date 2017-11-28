@@ -7,7 +7,7 @@
 - [ ] Create all templates for initial iteration
 - [ ] Create all content
     - [ ] Band bio
-    - [ ] Band member bio
+    - [ ] Band members bio
 
     
 # Spikes
