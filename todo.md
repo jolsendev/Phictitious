@@ -3,7 +3,7 @@
     - [ ] Create data structures first.
     - [ ] Create models
 - [ ] Modulate templates and use jinja
-- [ ] Implement jquery in app
+- [ ] Implement jquery
 - [ ] Create all templates for initial iteration
 - [ ] Create all content
     - [ ] Band bio
@@ -11,7 +11,7 @@
 
     
 # Spikes
-- [ ] Find bootstrap template 
+- [ ] Find forum bootstrap template 
 - [ ] Learn how to install admin app for flask
 - [ ] Learn flask blueprint
 - [ ] Learn phish.net api
