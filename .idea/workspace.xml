@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/PhictitiousBand/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="677">
-              <caret line="277" column="67" lean-forward="true" selection-start-line="277" selection-start-column="67" selection-end-line="277" selection-end-column="67" />
+              <caret line="277" column="50" lean-forward="false" selection-start-line="277" selection-start-column="50" selection-end-line="277" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -622,7 +622,7 @@
     <entry file="file://$PROJECT_DIR$/PhictitiousBand/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
-          <caret line="277" column="67" lean-forward="true" selection-start-line="277" selection-start-column="67" selection-end-line="277" selection-end-column="67" />
+          <caret line="277" column="50" lean-forward="false" selection-start-line="277" selection-start-column="50" selection-end-line="277" selection-end-column="50" />
           <folding />
         </state>
       </provider>
