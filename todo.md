@@ -1,17 +1,18 @@
 # Epics
 - [ ] Create data models
     - [ ] Create data structures first.
+    - [ ] Identify models
     - [ ] Create models
 - [ ] Modulate templates and use jinja
-- [ ] Implement jquery in app
+- [ ] Implement jquery
 - [ ] Create all templates for initial iteration
 - [ ] Create all content
     - [ ] Band bio
-    - [ ] Band member bio
-
+    - [ ] Band members bio
+- [ ] Create unit tests for service layer
     
 # Spikes
-- [ ] Find bootstrap template 
+- [ ] Find forum bootstrap template 
 - [ ] Learn how to install admin app for flask
 - [ ] Learn flask blueprint
 - [ ] Learn phish.net api
