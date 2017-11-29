@@ -8,7 +8,7 @@
 - [ ] Create all content
     - [ ] Band bio
     - [ ] Band members bio
-
+- [ ] Create unit tests for service layer
     
 # Spikes
 - [ ] Find forum bootstrap template 
