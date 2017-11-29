@@ -5,6 +5,7 @@
     - [ ] Create models
 - [ ] Modulate templates and use jinja
 - [ ] Implement jquery
+    - [x] link scripts.js to html using flask
 - [ ] Create all templates for initial iteration
 - [ ] Create all content
     - [ ] Band bio
