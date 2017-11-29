@@ -1,6 +1,7 @@
 # Epics
 - [ ] Create data models
     - [ ] Create data structures first.
+    - [ ] Identify models
     - [ ] Create models
 - [ ] Modulate templates and use jinja
 - [ ] Implement jquery
