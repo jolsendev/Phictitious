@@ -8,6 +8,10 @@
       font-size: 20px;
       color: #111;
   }
+  h4, span{
+  letter-spacing: 0px;
+  }
+
   .container {
       padding: 80px 120px;
   }
