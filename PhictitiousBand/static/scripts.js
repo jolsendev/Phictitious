@@ -25,4 +25,11 @@ $(document).ready(function(){
       });
     } // End if
   });
+
+    $('.panel-heading').mouseenter(function(){
+        $('.list-group-one').toggle("slow");
+    });
+    $('.panel-heading').mouseleave(function(){
+        $('.list-group-one').toggle("slow");
+    });
 })
