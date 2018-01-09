@@ -26,10 +26,14 @@ $(document).ready(function(){
     } // End if
   });
 
-    $('.panel-heading').mouseenter(function(){
-        $('.list-group-one').toggle("slow");
-    });
-    $('.panel-heading').mouseleave(function(){
-        $('.list-group-one').toggle("slow");
-    });
+// constant variables.
+  const $tourPanel = $('.panel-heading');
+  const $panelCollapse = $('.panel-collapse');
+
+  $tourPanel.on('click', () =>{
+        $panelCollapse.toggle("slow");
+  });
+  $tourPanel.on('mouseenter', () =>{
+        $panelCollapse.toggle("slow");
+  });
 })
