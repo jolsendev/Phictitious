@@ -30,10 +30,14 @@ $(document).ready(function(){
   const $tourPanel = $('.panel-heading');
   const $panelCollapse = $('.panel-collapse');
 
-  $tourPanel.on('click', () =>{
-        $panelCollapse.toggle("slow");
-  });
-  $tourPanel.on('mouseenter', () =>{
-        $panelCollapse.toggle("slow");
+  $tourPanel.on('click', (event) =>{
+         var kids = $( event.currentTarget ).children();
+         kids.toggle("slow");
+  }).on('mouseenter', event =>{
+         var kids = $( event.currentTarget ).children();
+         kids.show("slow");
+  }).on('mouseleave', event =>{
+         var kids = $( event.currentTarget ).children();
+         kids.hide("slow");
   });
 })

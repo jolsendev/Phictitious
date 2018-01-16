@@ -73,15 +73,15 @@
         <h3 class="text-center">TOUR DATES</h3>
         <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
 
-        <div class="panel-group" id="accordion">
+        <div class="panel-group">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4 class="panel-title tour_panel"  data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                    <h4 class="panel-title tour_panel" data-parent="#accordion">
                         Fall Tour
                         <span class="badge pull-right">3</span>
                     </h4>
                 </div>
-                <div id="collapse1" class="panel-collapse collapse in">
+                <div>
                     <ul class="list-group list-group-one">
                         <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
                         <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li>
@@ -91,47 +91,47 @@
             </div>
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                            Winter Tour</a>
+                    <h4 class="panel-title tour_panel" data-parent="#accordion">
+                        Fall Tour
+                        <span class="badge pull-right">3</span>
                     </h4>
                 </div>
-                <div class="panel-collapse">
-                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                    </div>
+                <div>
+                    <ul class="list-group list-group-one">
+                        <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
+                        <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li>
+                        <li class="list-group-item">November</li>
+                    </ul>
+                </div>
+            </div>
+           <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title tour_panel"  data-parent="#accordion" >
+                        Fall Tour
+                        <span class="badge pull-right">3</span>
+                    </h4>
+                </div>
+                <div >
+                    <ul class="list-group list-group-one">
+                        <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
+                        <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li>
+                        <li class="list-group-item">November</li>
+                    </ul>
                 </div>
             </div>
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                            Spring Tour</a>
+                    <h4 class="panel-title tour_panel"  data-parent="#accordion" >
+                        Fall Tour
+                        <span class="badge pull-right">3</span>
                     </h4>
                 </div>
-                <div id="collapse3" class="panel-collapse collapse">
-                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                            Summer Tour</a>
-                    </h4>
-                </div>
-                <div id="collapse4" class="panel-collapse collapse">
-                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                    </div>
+                <div >
+                    <ul class="list-group list-group-one">
+                        <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
+                        <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li>
+                        <li class="list-group-item">November</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -270,6 +270,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 var marker = new google.maps.Marker({position:myCenter});
 marker.setMap(map);
 }
+
 
 
 
