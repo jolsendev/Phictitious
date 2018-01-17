@@ -24,7 +24,11 @@ $(document).ready(function(){
         window.location.hash = hash;
       });
     } // End if
+
+
   });
+
+  hideTourPanel("fast");
 
   const $tourPanel = $('.panel-heading');
   const $panelCollapse = $('.panel-collapse');
@@ -34,10 +38,10 @@ $(document).ready(function(){
          var sibling = $( event.currentTarget ).siblings();
          sibling.removeClass('not-selected');
          sibling.toggle("slow");
-         hideTourPanel();
+         hideTourPanel('slow');
   });
 
-  function hideTourPanel(){
-    $('.not-selected').hide('slow');
+  function hideTourPanel(x){
+    $('.not-selected').hide(x);
   }
 })
