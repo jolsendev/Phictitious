@@ -26,18 +26,18 @@ $(document).ready(function(){
     } // End if
   });
 
-// constant variables.
   const $tourPanel = $('.panel-heading');
   const $panelCollapse = $('.panel-collapse');
 
   $tourPanel.on('click', (event) =>{
-         var kids = $( event.currentTarget ).children();
-         kids.toggle("slow");
-  }).on('mouseenter', event =>{
-         var kids = $( event.currentTarget ).children();
-         kids.show("slow");
-  }).on('mouseleave', event =>{
-         var kids = $( event.currentTarget ).children();
-         kids.hide("slow");
+          $('.tour-panel-div').addClass('not-selected');
+         var sibling = $( event.currentTarget ).siblings();
+         sibling.removeClass('not-selected');
+         sibling.toggle("slow");
+         hideTourPanel();
   });
+
+  function hideTourPanel(){
+    $('.not-selected').hide('slow');
+  }
 })
