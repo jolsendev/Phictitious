@@ -24,8 +24,6 @@ $(document).ready(function(){
         window.location.hash = hash;
       });
     } // End if
-
-
   });
 
   hideTourPanel("fast");
