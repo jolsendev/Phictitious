@@ -1,0 +1,3 @@
+jsConnect = function(){
+    alert("yup");
+}
