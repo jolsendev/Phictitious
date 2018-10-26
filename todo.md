@@ -15,7 +15,7 @@
 # Spikes
 - [ ] Find forum bootstrap template 
 - [ ] Learn how to install admin app for flask
-- [ ] Learn flask blueprint
+- [X] Learn flask blueprint
 - [ ] Learn phish.net api
 - [ ] Find other interesting apis
 - [ ] Find a good java script framework
