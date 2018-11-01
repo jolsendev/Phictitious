@@ -9,13 +9,12 @@ app = Flask(__name__)
 
 # Create database resources
 from PhictitiousBand.admin.models import db as admin_db
-current_app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////mnt/C/TEMP/FlaskDB/test.db'
-current_app.config['SECRET_KEY'] = 'mysecret'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////mnt/C/TEMP/FlaskDB/test.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SECRET_KEY'] = 'mysecret'
 
-# Admin app database
+# Init Admin app database
 admin_db.init_app(app)
-with app.app_context():
-    admin_db.create_all()
 
 app.register_blueprint(home_mod)
 app.register_blueprint(api_mod, url_prefix="/api")
