@@ -7,19 +7,26 @@ from PhictitiousBand.admin.routes import mod as admin_mod
 
 app = Flask(__name__)
 
-# Create database resources
+#####################################################
+# Create database resources                         #
+#####################################################
 from PhictitiousBand.admin.models import db as admin_db
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////mnt/C/TEMP/FlaskDB/test.db'
+# Setting this to false due to warning it was deprecated and being removed in a future release
+# so will not use it at all
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = 'mysecret'
 
-# Init Admin app database
+#####################################################
+# Init app databases.
+#####################################################
 admin_db.init_app(app)
 
+#####################################################
+# Register blueprints                               #
+#####################################################
 app.register_blueprint(home_mod)
 app.register_blueprint(api_mod, url_prefix="/api")
 app.register_blueprint(merch_mod, url_prefix='/merchandise')
 app.register_blueprint(forum_mod, url_prefix='/forum')
-
-# Admin App for application
-app.register_blueprint(admin_mod, url_prefix="/admin")
+app.register_blueprint(admin_mod, url_prefix="/admin") # Admin App for application
