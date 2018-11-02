@@ -14,6 +14,7 @@ def create_app():
     # Create database resources                         #
     #####################################################
     from PhictitiousBand.admin.models import db as admin_db
+    from PhictitiousBand.admin.models import admin_app
     basedir = os.path.abspath(os.path.dirname(__file__))
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////'+os.path.join(basedir, 'data.sqlite')
     # Setting this to false due to warning it was deprecated and being removed in a future release
@@ -25,7 +26,6 @@ def create_app():
     # Init app databases.
     #####################################################
     admin_db.init_app(app)
-
     #####################################################
     # Register blueprints                               #
     #####################################################
